@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shorcut icon" href="imagenes/carita.ico" type="image/x-icon"/>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<title>Formularios</title>
+</head>
+<body>
+	<header> <img src="imagenes/fondo2.png" width="100%"></header>
+	<nav>
+		<ul>
+			<li><a href="index.html"> Inicio </a> </li>
+			<li><a href="Listas.html"> Listas </a> </li>
+			<li><a href="Bordes.html"> Bordes </a> </li>
+			<li><a href="imagenes.html"> Imagenes </a> </li>
+			<li><a href="Formularios.html"> Formularios </a> </li>
+			<li><a href="audio.html">audio</a> </li>
+			<li><a href="Videos.html">Videos </a> </li>
+		</ul>
+	</nav>
+
+	<section>
+		<BR>
+		<center> <H2> Formularios </H2> </center>
+		<p>
+			Los formularios de HTML5 (< form >) incorporan nuevos tipos de datos (<input<>) (fechas, colores, direcciones de correo electrónico, rangos, etc..) y la autovalidación de datos sin javaScript. Al mismo tiempo vamos a ver todas las propiedades y eventos CSS3 (como [required] o :invalid) que permiten configurar cualquier elemento o respuesta de autovalidación de un formulario.	
+		</p>
+		
+		<article>
+		<h3> Ejemplo practico </h3>
+		 Los formularios fueron una de las primeras mejoras que se dieron a conocer de HTML5 y de las que más revuelo causaron, sobre todo por su gran capacidad de autovalidación de una manera extremadamente fácil y sin necesidad de utilizar JavaScript.
+		 <h3> Datos Personales</h3>
+
+      <form action="paginaX.html" method="post">
+      	<table border="5" bordercolor=orange align="center">
+        <tr>
+        	<th>Dato</th><th> Etiqueta</th>
+        </tr>
+        <tr> <td>Nombre</td>
+        	<td> <input type="text" name="nombre"> </td>
+        </tr>
+        <tr>
+        	<td>Apellido</td>
+        	<td><input type="text" name="apellido"></td>
+        </tr>
+        <tr> <td> Login </td> <td><input type="text" name="login"></td></tr>
+        <tr> <td> Password </td> <td><input type="Password" name="clave"></td></tr>
+        <tr>
+        	<td> Correo </td> <td><input type="email" name="correo"></td></tr>
+        	<tr>
+        		<td> Fecha de nacimiento </td>
+        		<td><input type="date" name="fecha"> </td>
+        	</tr>
+        	<tr>
+        		<td>Nota web I </td>
+        		<td><input type="range" min ="1" max="10" name="nota" value="1"
+        		step="1" title="Nota de web I"> </td>
+        	</tr>
+        	<tr>
+        		<td>Color </td>
+        		<td><input type="color" name="colorin"></td>
+        	</tr>
+        	<tr>
+        		<td>Edad </td>
+        		<td><input type="number" name="edad" min="18" max="50"></td>
+        	</tr>
+        	<tr>
+
+        		<th colspan="2"> Que inf le gusta </th>
+        	</tr>
+        	<tr>
+        		<td colspan="2">
+        		Futbol <input type="checkbox" name="futbol"> 
+        		Peliculas <input type="checkbox" name="pelis">
+        		Noticias <input type="checkbox" name="noticias">
+        		Novelas <input type="checkbox" name="novelas">
+        	  </td>
+        	</tr>
+        	<tr>
+        		<td> Achivos</td>
+        		<td> <input type="file" name="archivos" accept="image/*"/> </td>
+        	</tr>
+        	<tr>
+        		<th> Genero</th>
+        		<td> Masculino <input type="radio" value="M" name="sexo" checked>
+        		Femenino <input type="radio" value="F" name="sexo">
+        	</td>
+        	</tr>
+        	<td> Idioma </td>
+        	<td>
+        		<select name="idioma">
+        			<option value="Lenguas ñeras">Lenguas ñeras </option>
+        			<option value="Español"> Español </option>
+        			<option value="Mierda"> Mierda </option>
+        			<option value="Lenguas muertas">Lenguas muertas </option>
+        		</select>
+        		</td>
+            </tr>
+            </tr>
+        	<tr>
+
+        		<td><input style="background-color: #FF9900" type="submit" name="Enviar" value="Enviar"></td>
+        		<td><input style="background-color: #FF9900" type="reset" name="Restablecer" value="Restablecer"></td>
+
+        	</tr>
+
+      	</table>
+      	
+      	 	
+      </form>
+
+
+
+		 </article>
+		<article>   </article>
+
+	</section>
+	<aside> </aside>
+	<footer>Contacto: </footer>
+
+</body>
+</html>
+

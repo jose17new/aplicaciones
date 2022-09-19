@@ -1,0 +1,88 @@
+nav {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 0;
+}
+nav a
+{
+	text-decoration: 0;
+	color: inherit;
+	font-size: 14px;
+}
+
+nav li
+{
+       float:left;
+       width:10%;
+       padding:5px 10px;
+       background-color:#000;
+       border:1px solid #000;
+       text-align:center;
+       color:#fff;
+
+}
+nav li:hover
+{
+	background-color: #ffffff;
+	color: #000;
+}
+
+body
+{
+	background-color: black;
+	color: orange;
+	font-size: 22px; 
+}
+div
+{
+	background-color: slategray;
+	color: whitesmoke;
+	text-shadow: 10px 10px 5px red;
+	height: 50px;
+	width: 500px;
+}
+article
+{
+	float: left;
+	overflow: hidden;
+	background-color: gray;
+}
+aside
+{
+	float: right;
+	overflow: hidden;
+}
+#martillo{
+   transform:translate(200px,5px);
+   animation:animacion_martillo 2s;
+}
+#martillo{
+   transform:translate(50%,0px);
+}
+#martillo{
+   transform:rotate(90deg);
+}
+#martillo{
+   transform:scale(2,1.75);
+}
+#martillo{
+   transform:skew(10,25);
+}
+#martillo{
+   transform:translate(200px, 0px) rotate(33deg) scale(0.5,0.5);
+}
+@keyframes animacion_martillo {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#editable{
+  overflow:auto;
+}

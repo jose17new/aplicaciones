@@ -1,0 +1,105 @@
+nav {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-size: 0;
+}
+nav a
+{
+	text-decoration: 0;
+	color: inherit;
+	font-size: 14px;
+}
+
+nav li
+{
+		float:left;
+		width:10%;
+		padding:5px 10px;
+		background-color:#000;
+		border: 1px solid #000;
+		text-align: center;
+		color:#fff;
+}
+nav li:hover
+{
+background-color: #ffffff;
+color: #000;
+
+}
+body
+{
+	background-color: red;
+	color: orange;
+	font-size: 22px;
+}
+input
+{
+	font-size: 22px;
+	background-color: #F3DCAB;
+}
+input submit
+{
+	background-color: pink;
+}
+form 
+{
+	background-color: white;
+	color:black;
+}
+fieldset
+{
+	border-radius: 5px;
+	border: 7px dotted white;
+}
+input [required]{
+	border-color:blue;
+	box-shadow:0px 0px 5px blue;
+}
+input:invalid{
+	border-color:orange;
+	box-shadow:0px 0px 5px blue;
+}
+input:valid{
+	border-color: black;
+	box-shadow: 0px 0px 5px black;
+}
+article
+{
+	background-color: gainsboro;
+	box-shadow: 10px 30px 10px gray;
+	color:black;
+}
+footer 
+{
+	background-color: beige;
+	box-shadow: 0px 0px 30px black;
+}
+div
+{
+	background-color: ghostwhite;
+	width: 700px;
+	height: 100px;
+	box-shadow: 0px 0px 25px blue;
+
+}
+#martillo {
+  animation:animacion_martillo 3s;
+  -webkit-animation:animacion_martillo 3s;
+  -moz-animation:animacion_martillo 3s;
+  -o-animation:animacion_martillo 3s;
+}
+@keyframes animacion_martillo {
+  20% {
+    transform: rotate(0deg);
+    top:0px
+  }
+  60% {
+    transform: rotate(90deg);
+    top:57px
+  }
+  100% {
+    transform: rotate(0deg);
+    top:0px
+  }
+}
